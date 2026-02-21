@@ -1,19 +1,12 @@
 ﻿using Spectre.Console;
-using System.Collections.Generic;
 
 namespace Interview.ChampionData.RobotSimulator
 {
-    public class SimulatorRenderer
+    public class SimulatorRenderer(Robot robot, Tabletop table)
     {
-        private readonly Robot _robot;
-        private readonly Tabletop _table;
+        private readonly Robot _robot = robot;
+        private readonly Tabletop _table = table;
         private readonly List<string> _log = new();
-
-        public SimulatorRenderer(Robot robot, Tabletop table)
-        {
-            _robot = robot;
-            _table = table;
-        }
 
         public void Log(string message)
         {
