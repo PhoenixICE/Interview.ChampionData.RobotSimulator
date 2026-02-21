@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Interview.ChampionData.RobotSimulator.UnitTests/Interview.ChampionData.RobotSimulator.UnitTests.csproj" />
+  <Project Path="Interview.ChampionData.RobotSimulator/Interview.ChampionData.RobotSimulator.csproj" />
+</Solution>
